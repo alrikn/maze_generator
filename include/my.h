@@ -29,8 +29,6 @@ typedef struct maze {
 
 void print_array(char const array[][SIZE]);
 void maze_generator(char array[][SIZE]);
-int set_start(char array[][SIZE]);
-void set_end(char array[][SIZE]);
 void set_values(size_t values[][VALUES], size_t column, size_t row);
 
 
